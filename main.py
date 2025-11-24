@@ -21,7 +21,7 @@ downloader.run(pdfs_to_read="pdfs_to_read.txt")
 #create csv 
 
 add_to_csv("CNPJ","Campo","Valor")
-chatGPT = ChatGPT(key = "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")
+chatGPT = ChatGPT(key = "SUA CHAVE AQUI")
 files_to_score = []
 files_not_to_score = ["pdfs_to_read.txt","ReadMe.txt","requirements.txt"]
 for my_file in listdir():
